@@ -9,25 +9,26 @@ tags: [Postgre, Spring Boot, Mybatis]
 
 # 조인의 유형
 
+- 아래와 같이 다앙한 join 존재
+
     ![조인의 종류](/assets/img/join-2/join.png)
 
 ## Inner 조인
 
-    ![inner join](/assets/img/join-2/inner_join.png)
-
 - A 테이블에서 B 테이블로, B 테이블에서 A 테이블로 양쪽 방향성을 모두 가질 경우, Inner Join
 
-## Left Outer Join
+        ![inner join](/assets/img/join-2/inner_join.png)
 
-    ![left outer join](/assets/img/join-2/left_outer_join.png)
+
+## Left Outer Join
 
 - A 테이블에서 B 테이블로의 방향성만 가진 경우, Left Outer Join
 
 - A 테이블의 레벨을 유지하는 조인
 
-## Right Outer Join
+        ![left outer join](/assets/img/join-2/left_outer_join.png)
 
-    ![right outer join](/assets/img/join-2/right_outer_join.png)
+## Right Outer Join
 
 - B 테이블에서 A 테이블로의 방향성만 가진 경우, Right Outer Join
 
@@ -35,13 +36,15 @@ tags: [Postgre, Spring Boot, Mybatis]
 
 - Left Outer Join에 비해 잘 사용되지 않음
 
-## Full Outer Join
+        ![right outer join](/assets/img/join-2/right_outer_join.png)
 
-    ![full outer join](/assets/img/join-2/full_outer_join.png)
+## Full Outer Join
 
 - 배치 처리 시 사용되는 경우 존재
 
 - A, B 양쪽 테이블의 레벨을 모두 유지하는 조인
+
+        ![full outer join](/assets/img/join-2/full_outer_join.png)
 
 ### 실습 문제 풀기
 

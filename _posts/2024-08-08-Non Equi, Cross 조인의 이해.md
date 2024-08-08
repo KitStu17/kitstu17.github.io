@@ -9,17 +9,17 @@ tags: [Postgre, Spring Boot, Mybatis]
 
 ## Non Equi 조인
 
-    ![non equi join](/assets/img/join-2/non_equi_join.png)
-
 - Equi 조인과 다르게 between, >, >=, < 등의 연산자를 사용하는 조인
 
-## Cross Join
+    ![non equi join](/assets/img/join-2/non_equi_join.png)
 
-    ![cross join](/assets/img/join-2/cross_join.png)
+## Cross Join
 
 - Cartesian Product 조인
 
 - 조인 컬럼없이 두 테이블 간 가능한 모든 연결을 결합하는 조인 방식
+
+    ![crossjoin](/assets/img/join-2/cross_join.png)
 
 ### 실습 문제 풀기
 
